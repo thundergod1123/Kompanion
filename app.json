@@ -34,7 +34,7 @@
   "SESSION": {
    "description": "Get this value by running python3 makesession.py",
    "value": ""
-  },  
+         }
   
   }, 
  
