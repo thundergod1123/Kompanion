@@ -1,7 +1,7 @@
 {
  "name": "Kompaion - UserBot",
- "description": "An advanced Telethon Userbot, from @TeleBotSupport",
- "logo": "https://telegra.ph/file/34b810002e7a3ee86a21e.png",
+ "description": "An advanced Telethon Userbot, from @SenkuSupport",
+ "logo": "https://images4.alphacoders.com/476/thumb-350-47666.png",
  "keywords": [
   "telegram",
   "userbot",
@@ -10,7 +10,6 @@
   "productivity"
  ],
  "repository": "hhttps://github.com/LoopHero/Kompanion",
- "website": "https://xditya.gitbook.io/telebot/",
  "success_url": "https://t.me/SenkuUpdates",
  "stack": "container",
  "env": {
