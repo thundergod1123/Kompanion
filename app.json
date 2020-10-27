@@ -36,6 +36,8 @@
    "value": ""
   },  
   
+  }, 
+ 
   "addons": [{
   "plan": "heroku-postgresql",
   "options": {
