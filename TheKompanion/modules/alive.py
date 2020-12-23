@@ -4,9 +4,9 @@ from telethon import events
 
 @Kompanion.on(command(pattern = "alive"))
 async def alive(event):
-    pic = "https://telegra.ph/file/2bf0a6c60935590851a7d.jpg"
+    pic = "https://telegra.ph/file/b5e4873219528bda2a40a.jpg"
     msg = """
-    **Kompanion is on.**
+    **Powfu is on.**
     `Ready to serve...`
     """
     await event.reply(msg, file=pic)
@@ -14,7 +14,7 @@ async def alive(event):
 @Kompanion.on(events.NewMessage(outgoing=True, pattern="^.help"))   
 async def help(event):
     msg = """
-        **Kompanion.**
+        **Powfu.**
         `.alive` -> get userbot alive message.
         `.adminhelp` -> help for admin mod.
         `.stickerhelp` -> help for sticker mod.
