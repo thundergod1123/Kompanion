@@ -33,8 +33,8 @@
   
   }, 
  
-  "addons": []
-  "plan"; "heroku-postgresql",
+  "addons": [}
+  "plan": "heroku-postgresql",
   "options": {
    "version": "9.6"
   }
