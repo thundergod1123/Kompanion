@@ -1,42 +1,27 @@
 {
- "name": "Kompaion - UserBot",
- "description": "An advanced Telethon Userbot, from @SenkuSupport",
- "logo": "https://images4.alphacoders.com/476/thumb-350-47666.png",
- "keywords": [
-  "telegram",
-  "userbot",
-  "Konpanion",
-  "modular",
-  "productivity"
- ],
- "repository": "hhttps://github.com/LoopHero/Kompanion",
- "success_url": "https://t.me/SenkuUpdates",
- "stack": "container",
- "env": {
-  
-   "description": "Setting this to ANYTHING will enable heroku.",
-   "value": "ANYTHING"
-  },
-  
-  "APP_ID": {
-   "description": "Get this value from my.telegram.org! Please do not steal",
-   "value": ""
-  },
-  "API_HASH": {
-   "description": "Get this value from my.telegram.org! Please do not steal",
-   "value": ""
-  },
-  "SESSION": {
-   "description": "Get this value by running python3 makesession.py",
-   "value": ""
-         }
-  
-  }, 
- 
-  "addons": [{
-  "plan": "heroku-postgresql",
-  "options": {
-   "version": "9.6"
-  }
- }]
+    "name": "kompanion",
+    "description": "telegram pluggable userbot",
+    "logo": "https://imgur.com/download/Inyeb1S",
+    "keywords": [
+        "userge",
+        "telegram",
+        "pluggable",
+        "userbot"
+    ],
+    "repository": "https://github.com/thundergod1123/Kompanione",
+    "website": "https://github.com/Userge",
+    "success_url": "https://t.me/theUserge",
+    "env": {
+        "API_ID": {"description": "Get this value from https://my.telegram.org"},
+        "API_HASH": {"description": "Get this value from https://my.telegram.org"},
+        "HU_STRING_SESSION": {
+            "description": "[USER MODE] - Get this using 'https://GenUserGeString.usergeuserbot.repl.run' or `bash genStr`",
+            "required": false},
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
 }
