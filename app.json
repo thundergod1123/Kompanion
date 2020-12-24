@@ -17,7 +17,7 @@
         "HU_STRING_SESSION": {
             "description": "[USER MODE] - Get this using 'https://GenUserGeString.usergeuserbot.repl.run' or `bash genStr`",
             "required": false},
-    ],
+    ]
     "formation": {
         "worker": {
             "quantity": 1,
