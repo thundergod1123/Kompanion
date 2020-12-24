@@ -11,7 +11,7 @@ Just another telethon userbot
 
 *How to run this bot*
 - `git clone https://github.com/thundergod1123/Kompanion`
-- `cd Kompanion'
+- `cd Kompanion`
 - `pip3 install -r requirements.txt`
 - `python3 makesession.py` and put the session string in config.ini
 - `cp sample_config.ini config.ini` and satisfy the values in `config.ini`
