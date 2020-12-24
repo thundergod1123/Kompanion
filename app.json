@@ -1,42 +1,44 @@
 {
- "name": "Kompaion - UserBot",
- "description": "An advanced Telethon Userbot, from @SenkuSupport",
- "logo": "https://images4.alphacoders.com/476/thumb-350-47666.png",
- "keywords": [
-  "telegram",
-  "userbot",
-  "Konpanion",
-  "modular",
-  "productivity"
- ],
- "repository": "https://github.com/thundergod1123/Kompanion",
- "success_url": "https://t.me/SenkuUpdates",
- "stack": "container",
- "env": {
-  "ENV": {
-   "description": "Setting this to ANYTHING will enable heroku.",
-   "value": "ANYTHING"
-  },
-  
-  "APP_ID": {
-   "description": "Get this value from my.telegram.org! Please do not steal",
-   "value": ""
-  },
-  "API_HASH": {
-   "description": "Get this value from my.telegram.org! Please do not steal",
-   "value": ""
-  },
-  "SESSION": {
-   "description": "Get this value by running python3 makesession.py",
-   "value": ""
-         }
-  
-  }, 
- 
-  "addons": [{
-  "plan": "heroku-postgresql",
-  "options": {
-   "version": "9.6"
-  }
- }{
+      "name": "Kompaion - UserBot",
+      "description": "An advanced Telethon Userbot, from @SenkuSupport",
+      "keywords": [
+         "telegram",
+         "userbot",
+         "Konpanion",
+         "modular",
+         "productivity"
+      ],   
+   "repository": "https://github.com/LoopHero/Kompanion",
+   "addons": [
+      {
+         "options": {
+            "version": "9.6"
+         },
+         "plan": "heroku-postgresql"
+      }
+   ],
+   "env": {
+      "ENV": {
+         "description": "Setting this to ANYTHING will enable heroku.",
+         "required": true,
+         "value": "ANYTHING"
+      },
+      "APP_ID": {
+         "description": "Get this value from my.telegram.org! Please do not steal",
+         "required": true,
+         "value": ""
+      },
+      "API_HASH": {
+         "description": "Get this value from my.telegram.org! Please do not steal",
+         "required": true,
+         "value": ""
+      },    
+      "SESSION": {
+         "description": "Get this value by running python3 makesession.py",
+         "required": true,
+         "value": ""
+
+      }
+      
+   }
 }
