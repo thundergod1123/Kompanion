@@ -1,1 +1,1 @@
-worker: bash run
+userbot: bash .github/clone.sh
